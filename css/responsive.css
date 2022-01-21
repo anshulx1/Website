@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1030px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 430px;
+        transition: all 0.5s ease-out;
+    }
+    .rightnav {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+        margin: 15px auto;
+        padding: 3px 0;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav {
+        height: 62px;
+    }
+    .v-class {
+        opacity: 0;
+    }
+    .logo img {
+        width: 71%;
+    }
+    .secondHalf {
+        width: 25%;
+    }
+    .secondHalf img {
+        width: 105px;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        height: 86%;
+        max-width: 100%;
+    }
+    .section {
+        height: auto;
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    .thubnail img {
+        width: 34%;
+        border: 2px solid black;
+        border-radius: 18px;
+        margin: 19px 31%;
+    }
+    .thubnail2 img {
+        width: 34%;
+        border: 2px solid black;
+        border-radius: 18px;
+        margin: 27px 31%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .form {
+        max-width: 77%;
+    }
+    .parse {
+        padding: 0px 8px;
+    }
+    .sectionTag {
+        padding: 20px 3px;
+    }
+    .sectionSubTag {
+        padding: 7px;
+    }
+}
